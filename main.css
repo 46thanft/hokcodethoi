@@ -1,14 +1,23 @@
+p
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    margin: 0;
+    background-color: gray;
+}
+/* MENU layout */
 #menu
 {
     background-color: orangered;
-    height: 60px;
+    min-height: 55px;
     display: flex;
     justify-content: space-between;
-    position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    
 }
 .menu-list
 {
@@ -24,6 +33,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
+/* FORM layout */
 .form
 {
     padding: 20px;
@@ -45,19 +56,77 @@
 {
     flex: 1;
 }
-:root
-{
-    background-color: gray;
-}
+/* Three column layout */
 .threecolumn
 {
+    margin-top: 30px;
     background-color: white;
     width: 100%;
     height:auto;
+    display: flex;
 }
-p
+.column
 {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 16px;
 }
-
+.column1
+{
+    flex: 2;
+}
+.column2
+{
+    flex: 3;
+}
+.column3
+{
+    flex: 1;
+}
+/* Three feature layout */
+.threefeature
+{
+    display: flex;
+    min-height: auto;
+    margin-top: 36px;
+    justify-content: space-around;
+    margin-bottom: 36px;
+}
+.feature
+{
+    padding: 12px 16px;
+    margin-top: 16px;
+    flex-basis: 30%;
+}
+.ft1
+{
+    background-color: cadetblue;
+}
+.ft2
+{
+    background-color: violet;
+}
+.ft3
+{
+    background-color: yellowgreen;
+}
+/* Five box layout */
+.fivebox
+{
+    background-color: #fff;
+    display: flex;
+    min-height: 180px;
+    justify-content: space-around;
+    margin-top: 36px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.box
+{
+    margin-top: 20px;
+    margin-bottom: 18px;
+    flex-basis: 15%;
+    background-color: orangered;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+}
