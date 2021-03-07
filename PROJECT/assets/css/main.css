@@ -1,0 +1,50 @@
+/* NAVBAR */
+.landpageface {
+    width: 100%;
+    background-image: url(https://media.gettyimages.com/videos/purple-background-pink-background-4k-video-id827283160?s=640x640);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+.navbar-help__option{
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    margin: 5px auto;
+}
+.navbar-help__option--link{
+    text-decoration: none;
+    color: black;
+}
+.navbar-help{
+    position: relative;
+    width: 100px;
+    height: 100%;
+    z-index: 1;
+}
+.navbar-help:hover .navbar-help__menu{
+    display: block;
+}
+.navbar-help__menu{
+    background-color:  var(--primary-color);
+    padding: 8px 70px 8px 0px;
+    box-shadow: 0 2px 2px 0;
+    border-radius: 2px;
+    display: none;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    z-index: 0;
+}
+button:nth-child(1){
+    width: 100px;
+}
+button:nth-child(2){
+    width: 200px;
+}
+button:nth-child(3){
+    width: 200px;
+}
+.description-right{
+    text-align: right;
+}
